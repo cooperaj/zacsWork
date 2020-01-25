@@ -1,0 +1,1 @@
+<link href="<?php echo $this->basepath . $this->path ?>" rel="stylesheet" type="text/css" media="<?php echo $this->type; ?>" />

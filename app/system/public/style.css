@@ -1,0 +1,103 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #002;
+	font-size: 1em;
+	line-height: 1.2em;
+	background: #14264c url("lighting.png") 0 0 repeat-x;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+#parent {
+    position: absolute;
+	min-height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: transparent url("grass.png") 0 100% repeat-x;
+}
+
+#container {
+    width: 688px;
+    padding-left: 50%;
+    margin-left: -344px;
+    margin-top: 2em;
+    min-height: 186px;
+}
+
+#header {
+    padding: 0.4em;
+    background: transparent url("logo.png") 0 100% no-repeat;
+    height: 63px;
+    margin: 0 0 1.8em 1.2em;
+}
+
+#header h1 {
+    display: none;
+}
+
+#flash {
+	font-size: 0.9em;
+	background-color: #F99;
+	border: 1px solid #C33;
+	padding: 0.4em;
+	color: #C33;
+}
+
+div.content h3 {
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+div.content h3.tick {
+    padding-left: 1.2em;
+    background: transparent url('accept.png') 0 90% no-repeat;
+}
+
+div.content .wrap {
+	padding: 1.3em 1em 0.5em 1em;
+}
+
+div.content a:active, 
+div.content a:visited,
+div.content a {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: 1px dotted #FFF;
+	font-weight: bold;
+}
+
+div.content p a:hover {	
+	border-bottom: 1px solid #FFF;
+}
+
+ul.site_links {
+    float: right;
+    display: block;
+    font-size: 0.8em;
+    line-height: 1em;
+    font-weight: bold;
+    margin-top: 41px;
+    padding-right: 1.6em;
+}
+
+ul.site_links li {
+    float: left;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    border-left: 1px solid #FFF;
+}
+
+ul.site_links li:first-child {
+    padding-left: 0;
+    border: 0;
+}
+
+ul.site_links a, ul.site_links a:visited {
+    color: #FFF;
+    text-decoration: none;
+}

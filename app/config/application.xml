@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<application>
+	
+	<!--A default path should point to an installed plugin (optionally with an action)
+	that has been defined below. e.g. <defaultpath>index/myapp</defaultpath> -->
+	<defaultpath>index</defaultpath>
+	
+	<!--A default look'n'feel should point to an installed plugin that has been defined below.-->
+	<lookandfeel>index</lookandfeel>
+	
+	<!--Increase log file output and include Firebug script in default pages.-->
+	<debug>off</debug>
+	
+	<!--Define plugins here.-->
+	<pluginregistry>
+	
+		<!--A basic plugin that defines a default action.-->
+		<!--
+		<plugin name="index" description="Provides a basic framework usage. A homepage.">
+			<lnf class="myLookAndFeel" />
+			<controller class="myController" />
+			<processor class="myProcessor">
+				<config option="optionname"><![CDATA[#this/that/s#]]></config>
+			</processor>
+		</plugin>
+		-->
+    
+		<plugin name="index" description="Provides a basic framework usage. A homepage.">
+			<lnf class="IndexLookAndFeel" />
+			<controller class="IndexController" />
+		</plugin>
+		
+	</pluginregistry>
+	
+	<!--Database connection information.-->
+	<databaseregistry>
+	
+	    <!--A basic database definition.-->
+		<!--
+		<database type="mysql" id="basic">
+			<location host="localhost" db="basic" />
+			<credentials username="username" password="p4ssw0rd" />
+		</database>
+		-->
+		
+	</databaseregistry>
+	
+	<!--The mime-mapping that define a binary content type.-->
+	<mimetypemapping>
+		<mime type="binary">application/octet-stream</mime>
+		<mime type="binary">image/jpeg</mime>
+		<mime type="binary">image/png</mime>
+		<mime type="binary">image/gif</mime>
+	</mimetypemapping>
+	
+</application>
